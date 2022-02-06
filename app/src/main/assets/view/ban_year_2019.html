@@ -1,0 +1,871 @@
+<style>
+    .main-content {
+        font-size: 12px;
+        background-color: #f2f2f166;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 10px;
+        width: 100%;
+        float: left;
+        margin-bottom: 15px;
+    }
+
+    .match-title {
+        text-align: center;
+        font-size: 13px;
+        color: #f1f1f1;
+        padding: 10px;
+        border-bottom: 1px solid #ada7a7;
+        background-color: #2196F3;
+        border-radius: 2px 2px 0 0;
+    }
+
+    td {
+        border: 1px solid #ccc;
+        font-size: 12px;
+        text-align: center;
+        color: #0645ad;
+        padding: 5px;
+    }
+
+    th {
+        border: 1px solid #ccc;
+        color: #222;
+        font-size: 12px;
+        text-align: center;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    table.team-statistics {
+        background-color: #f8f9fa;
+        color: #222;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table.team-statistics td:first-child, table.team-statistics th:first-child {
+        border-left: none;
+    }
+
+    table.team-statistics td:last-child, table.team-statistics th:last-child {
+        border-right: none;
+    }
+
+    .last-border {
+        border-bottom: none;
+    }
+
+    table tr:nth-child(odd) td {
+        background: #fff;
+    }
+
+    table tr:nth-child(even) td {
+        background: #f5f5f5;
+    }
+
+    .weekend-date {
+        color: #F66;
+        font-weight: bolder;
+    }
+
+    .holiday-date {
+        color: #05d23b;
+        font-weight: bolder;
+    }
+
+    caption {
+        font-size: 14px;
+        font-weight: bolder;
+        color: #000;
+        padding: 5px;
+    }
+
+    .weekend-date-title {
+        color: #F66;
+        font-weight: bolder;
+        padding: 0 5px;
+    }
+
+    .public-holiday-title {
+        color: #05d23b;
+        font-weight: bolder;
+    }
+</style>
+
+
+<div class="match-title">
+    Note : <span class="weekend-date-title"> * = সপ্তাহান্তে দিন,  </span>
+    <span class="public-holiday-title"> * = সরকারী ছুটি</span>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>জানুয়ারী</caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="">১</td>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class=" weekend-date">৪</td>
+            <td class=" weekend-date">৫</td>
+        </tr>
+        <tr>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class="">৮</td>
+            <td class="">৯</td>
+            <td class="">১০</td>
+            <td class=" weekend-date">১১</td>
+            <td class=" weekend-date">১২</td>
+        </tr>
+        <tr>
+            <td class="">১৩</td>
+            <td class="">১৪</td>
+            <td class="">১৫</td>
+            <td class="">১৬</td>
+            <td class="">১৭</td>
+            <td class=" weekend-date">১৮</td>
+            <td class=" weekend-date">১৯</td>
+        </tr>
+        <tr>
+            <td class="">২০</td>
+            <td class="">২১</td>
+            <td class="">২২</td>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class=" weekend-date">২৫</td>
+            <td class=" weekend-date">২৬</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৭</td>
+            <td class="last-border">২৮</td>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="last-border">৩১</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>ফেব্রুয়ারী </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class=" weekend-date">১</td>
+            <td class=" weekend-date">২</td>
+        </tr>
+        <tr>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class="">৫</td>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class=" weekend-date">৮</td>
+            <td class=" weekend-date">৯</td>
+        </tr>
+        <tr>
+            <td class="">১০</td>
+            <td class="">১১</td>
+            <td class="">১২</td>
+            <td class="">১৩</td>
+            <td class="">১৪</td>
+            <td class=" weekend-date">১৫</td>
+            <td class=" weekend-date">১৬</td>
+        </tr>
+        <tr>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class="">২০</td>
+            <td class="holiday-date">২১</td>
+            <td class=" weekend-date">২২</td>
+            <td class=" weekend-date">২৩</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৪</td>
+            <td class="last-border">২৫</td>
+            <td class="last-border">২৬</td>
+            <td class="last-border">২৭</td>
+            <td class="last-border">২৮</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>মার্চ </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class=" weekend-date">১</td>
+            <td class=" weekend-date">২</td>
+        </tr>
+        <tr>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class="">৫</td>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class=" weekend-date">৮</td>
+            <td class=" weekend-date">৯</td>
+        </tr>
+        <tr>
+            <td class="">১০</td>
+            <td class="">১১</td>
+            <td class="">১২</td>
+            <td class="">১৩</td>
+            <td class="">১৪</td>
+            <td class=" weekend-date">১৫</td>
+            <td class=" weekend-date">১৬</td>
+        </tr>
+        <tr>
+            <td class="holiday-date">১৭</td>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class="">২০</td>
+            <td class="">২১</td>
+            <td class=" weekend-date">২২</td>
+            <td class=" weekend-date">২৩</td>
+        </tr>
+        <tr>
+            <td class="">২৪</td>
+            <td class="">২৫</td>
+            <td class="holiday-date">২৬</td>
+            <td class="">২৭</td>
+            <td class="">২৮</td>
+            <td class=" weekend-date">২৯</td>
+            <td class=" weekend-date">৩০</td>
+        </tr>
+        <tr>
+            <td class="last-border">৩১</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>এপ্রিল </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="">১</td>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class=" weekend-date">৫</td>
+            <td class=" weekend-date">৬</td>
+        </tr>
+        <tr>
+            <td class="">৭</td>
+            <td class="">৮</td>
+            <td class="">৯</td>
+            <td class="">১০</td>
+            <td class="">১১</td>
+            <td class=" weekend-date">১২</td>
+            <td class=" weekend-date">১৩</td>
+        </tr>
+        <tr>
+            <td class="holiday-date">১৪</td>
+            <td class="">১৫</td>
+            <td class="">১৬</td>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class=" weekend-date">১৯</td>
+            <td class=" weekend-date">২০</td>
+        </tr>
+        <tr>
+            <td class="">২১</td>
+            <td class="holiday-date">২২</td>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class="">২৫</td>
+            <td class=" weekend-date">২৬</td>
+            <td class=" weekend-date">২৭</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৮</td>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>মে </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="holiday-date">১</td>
+            <td class="">২</td>
+            <td class=" weekend-date">৩</td>
+            <td class=" weekend-date">৪</td>
+        </tr>
+        <tr>
+            <td class="">৫</td>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class="">৮</td>
+            <td class="">৯</td>
+            <td class=" weekend-date">১০</td>
+            <td class=" weekend-date">১১</td>
+        </tr>
+        <tr>
+            <td class="">১২</td>
+            <td class="">১৩</td>
+            <td class="">১৪</td>
+            <td class="">১৫</td>
+            <td class="">১৬</td>
+            <td class=" weekend-date">১৭</td>
+            <td class=" weekend-date">১৮</td>
+        </tr>
+        <tr>
+            <td class="holiday-date">১৯</td>
+            <td class="">২০</td>
+            <td class="">২১</td>
+            <td class="">২২</td>
+            <td class="">২৩</td>
+            <td class=" weekend-date">২৪</td>
+            <td class=" weekend-date">২৫</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৬</td>
+            <td class="last-border">২৭</td>
+            <td class="last-border">২৮</td>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="holiday-date weekend-date last-border">৩১</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>জুন </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="holiday-date weekend-date">১</td>
+        </tr>
+        <tr>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class="holiday-date">৫</td>
+            <td class="holiday-date">৬</td>
+            <td class=" weekend-date">৭</td>
+            <td class=" weekend-date">৮</td>
+        </tr>
+        <tr>
+            <td class="">৯</td>
+            <td class="">১০</td>
+            <td class="">১১</td>
+            <td class="">১২</td>
+            <td class="">১৩</td>
+            <td class=" weekend-date">১৪</td>
+            <td class=" weekend-date">১৫</td>
+        </tr>
+        <tr>
+            <td class="">১৬</td>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class="">২০</td>
+            <td class=" weekend-date">২১</td>
+            <td class=" weekend-date">২২</td>
+        </tr>
+        <tr>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class="">২৫</td>
+            <td class="">২৬</td>
+            <td class="">২৭</td>
+            <td class=" weekend-date">২৮</td>
+            <td class=" weekend-date">২৯</td>
+        </tr>
+        <tr>
+            <td class="last-border">৩০</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>জুলাই </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="">১</td>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class=" weekend-date">৫</td>
+            <td class=" weekend-date">৬</td>
+        </tr>
+        <tr>
+            <td class="">৭</td>
+            <td class="">৮</td>
+            <td class="">৯</td>
+            <td class="">১০</td>
+            <td class="">১১</td>
+            <td class=" weekend-date">১২</td>
+            <td class=" weekend-date">১৩</td>
+        </tr>
+        <tr>
+            <td class="">১৪</td>
+            <td class="">১৫</td>
+            <td class="">১৬</td>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class=" weekend-date">১৯</td>
+            <td class=" weekend-date">২০</td>
+        </tr>
+        <tr>
+            <td class="">২১</td>
+            <td class="">২২</td>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class="">২৫</td>
+            <td class=" weekend-date">২৬</td>
+            <td class=" weekend-date">২৭</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৮</td>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="last-border">৩১</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>অগাস্ট </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="">১</td>
+            <td class=" weekend-date">২</td>
+            <td class=" weekend-date">৩</td>
+        </tr>
+        <tr>
+            <td class="">৪</td>
+            <td class="">৫</td>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class="">৮</td>
+            <td class=" weekend-date">৯</td>
+            <td class=" weekend-date">১০</td>
+        </tr>
+        <tr>
+            <td class="">১১</td>
+            <td class="holiday-date">১২</td>
+            <td class="holiday-date">১৩</td>
+            <td class="holiday-date">১৪</td>
+            <td class="holiday-date">১৫</td>
+            <td class=" weekend-date">১৬</td>
+            <td class=" weekend-date">১৭</td>
+        </tr>
+        <tr>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class="">২০</td>
+            <td class="">২১</td>
+            <td class="">২২</td>
+            <td class=" weekend-date">২৩</td>
+            <td class="holiday-date weekend-date">২৪</td>
+        </tr>
+        <tr>
+            <td class="">২৫</td>
+            <td class="">২৬</td>
+            <td class="">২৭</td>
+            <td class="">২৮</td>
+            <td class="">২৯</td>
+            <td class=" weekend-date">৩০</td>
+            <td class=" weekend-date">৩১</td>
+        </tr>
+        <tr>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>সেপ্টেম্বর </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td class="">১</td>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class="">৫</td>
+            <td class=" weekend-date">৬</td>
+            <td class=" weekend-date">৭</td>
+        </tr>
+        <tr>
+            <td class="">৮</td>
+            <td class="">৯</td>
+            <td class="holiday-date">১০</td>
+            <td class="">১১</td>
+            <td class="">১২</td>
+            <td class=" weekend-date">১৩</td>
+            <td class=" weekend-date">১৪</td>
+        </tr>
+        <tr>
+            <td class="">১৫</td>
+            <td class="">১৬</td>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class=" weekend-date">২০</td>
+            <td class=" weekend-date">২১</td>
+        </tr>
+        <tr>
+            <td class="">২২</td>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class="">২৫</td>
+            <td class="">২৬</td>
+            <td class=" weekend-date">২৭</td>
+            <td class=" weekend-date">২৮</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>অক্টোবর </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="">১</td>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class=" weekend-date">৪</td>
+            <td class=" weekend-date">৫</td>
+        </tr>
+        <tr>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class="holiday-date">৮</td>
+            <td class="">৯</td>
+            <td class="">১০</td>
+            <td class=" weekend-date">১১</td>
+            <td class=" weekend-date">১২</td>
+        </tr>
+        <tr>
+            <td class="">১৩</td>
+            <td class="">১৪</td>
+            <td class="">১৫</td>
+            <td class="">১৬</td>
+            <td class="">১৭</td>
+            <td class=" weekend-date">১৮</td>
+            <td class=" weekend-date">১৯</td>
+        </tr>
+        <tr>
+            <td class="">২০</td>
+            <td class="">২১</td>
+            <td class="">২২</td>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class=" weekend-date">২৫</td>
+            <td class=" weekend-date">২৬</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৭</td>
+            <td class="last-border">২৮</td>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="last-border">৩১</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>নভেম্বর </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class=" weekend-date">১</td>
+            <td class=" weekend-date">২</td>
+        </tr>
+        <tr>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class="">৫</td>
+            <td class="">৬</td>
+            <td class="">৭</td>
+            <td class=" weekend-date">৮</td>
+            <td class=" weekend-date">৯</td>
+        </tr>
+        <tr>
+            <td class="holiday-date">১০</td>
+            <td class="">১১</td>
+            <td class="">১২</td>
+            <td class="">১৩</td>
+            <td class="">১৪</td>
+            <td class=" weekend-date">১৫</td>
+            <td class=" weekend-date">১৬</td>
+        </tr>
+        <tr>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class="">২০</td>
+            <td class="">২১</td>
+            <td class=" weekend-date">২২</td>
+            <td class=" weekend-date">২৩</td>
+        </tr>
+        <tr>
+            <td class="">২৪</td>
+            <td class="">২৫</td>
+            <td class="">২৬</td>
+            <td class="">২৭</td>
+            <td class="">২৮</td>
+            <td class=" weekend-date">২৯</td>
+            <td class=" weekend-date">৩০</td>
+        </tr>
+        <tr>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="main-content">
+    <table class="team-statistics">
+        <caption>ডিসেম্বর </caption>
+        <tbody>
+        <tr>
+            <th>রবি</th>
+            <th>সোম</th>
+            <th>মঙ্গল</th>
+            <th>বুধ</th>
+            <th>বৃহস্পতি</th>
+            <th>শুক্র</th>
+            <th>শনি</th>
+        </tr>
+        <tr>
+            <td class="">১</td>
+            <td class="">২</td>
+            <td class="">৩</td>
+            <td class="">৪</td>
+            <td class="">৫</td>
+            <td class=" weekend-date">৬</td>
+            <td class=" weekend-date">৭</td>
+        </tr>
+        <tr>
+            <td class="">৮</td>
+            <td class="">৯</td>
+            <td class="">১০</td>
+            <td class="">১১</td>
+            <td class="">১২</td>
+            <td class=" weekend-date">১৩</td>
+            <td class=" weekend-date">১৪</td>
+        </tr>
+        <tr>
+            <td class="">১৫</td>
+            <td class="holiday-date">১৬</td>
+            <td class="">১৭</td>
+            <td class="">১৮</td>
+            <td class="">১৯</td>
+            <td class=" weekend-date">২০</td>
+            <td class=" weekend-date">২১</td>
+        </tr>
+        <tr>
+            <td class="">২২</td>
+            <td class="">২৩</td>
+            <td class="">২৪</td>
+            <td class="holiday-date">২৫</td>
+            <td class="">২৬</td>
+            <td class=" weekend-date">২৭</td>
+            <td class=" weekend-date">২৮</td>
+        </tr>
+        <tr>
+            <td class="last-border">২৯</td>
+            <td class="last-border">৩০</td>
+            <td class="last-border">৩১</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+            <td class="last-border">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+

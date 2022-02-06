@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_ban_year_2019"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Bang. Calendar View 2019" />
+
+        <item
+            android:id="@+id/nav_english_version_2018"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="English Version 2019" />
+
+        <item
+            android:id="@+id/nav_eng_year_2018"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Eng. Calendar View 2019" />
+
+        <item
+            android:id="@+id/nav_exit_apps"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Exit Apps" />
+
+    </group>
+
+</menu>
